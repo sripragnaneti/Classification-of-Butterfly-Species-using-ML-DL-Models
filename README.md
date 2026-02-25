@@ -72,6 +72,3 @@ Images are resized to 224x224 and normalized before training.
 - OpenCV
 - Matplotlib
 
----
-
-## Repository Structure
