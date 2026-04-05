@@ -48,6 +48,10 @@ Total features per image: 212
 Model implemented:
 - Random Forest Classifier
 
+Note:
+The feature extraction process was performed prior to this work. 
+This project focuses on applying machine learning models using the extracted features.
+
 ---
 
 ## Deep Learning Approach
