@@ -8,8 +8,9 @@ Two different approaches are implemented and compared:
 
 - Random Forest (Classical ML)
 - MobileNetV2 (Transfer Learning - Deep Learning)
+- EfficientNet (Deep Learning)
 
-The goal is to analyze performance differences between feature-based machine learning models and end-to-end deep learning models.
+The goal is to analyze performance differences between feature-based machine learning models and multiple deep learning architectures.
 
 ---
 
@@ -51,14 +52,29 @@ Model implemented:
 
 ## Deep Learning Approach
 
-The deep learning model uses:
+The deep learning models used include:
 
 - MobileNetV2 (pretrained on ImageNet)
+- EfficientNet (pretrained architecture for improved performance)
 - Transfer Learning
 - Fine-tuning of selected layers
 - Early Stopping to prevent overfitting
 
 Images are resized to 224x224 and normalized before training.
+
+EfficientNet was introduced to improve classification accuracy compared to MobileNetV2.
+
+---
+
+## Model Comparison
+
+The performance of the following models is compared:
+
+- Random Forest (feature-based approach)
+- MobileNetV2
+- EfficientNet
+
+Evaluation is based on accuracy and generalization performance.
 
 ---
 
