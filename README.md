@@ -49,7 +49,7 @@ Model implemented:
 - Random Forest Classifier
 
 Note:
-The feature extraction process was performed prior to this work. 
+The feature extraction process was performed prior to this work and the feature dataset used for training is included in this repository.
 This project focuses on applying machine learning models using the extracted features.
 
 ---
